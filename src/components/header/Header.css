@@ -46,17 +46,25 @@ nav a:link {
 
 .language-switch {
     display: flex;
+    align-items: center;
+
+}
+.language-switch p {
+    font-weight: bold;
 }
 
 .language-switch svg {
     display: block;
     width: 30px;
     margin-left: 10px;
+
 }
 
 .active {
     color: red;
 }
+
+
 
 
 
