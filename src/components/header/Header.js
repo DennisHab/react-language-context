@@ -27,7 +27,7 @@ function Header() {
               </NavLink>
               </li>
             <li className="language-switch">
-              <p>Language:</p>
+              <p>{activeLanguage === "nl" ? "Taal" : "Idioma"}</p>
               <div className="language-nl" onClick= {()=>changeLanguage('nl')} style={{opacity: activeLanguage === 'es' && '20%'}}>
                 <FlagNL
                 />
